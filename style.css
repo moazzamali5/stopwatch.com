@@ -53,7 +53,7 @@ body{
 h1{
     padding-bottom: 5%;
     color:white;
-    font-size: 9vw;
+    font-size: 12vw;
 }
 .button{
     padding-bottom: 10%;
@@ -61,20 +61,49 @@ h1{
 }
 button{
     padding:2%;
-    height:50px;
+    height:60px;
     margin-inline:2%;
     border-radius: 50%;
     color:white;
     background-color: black;
+    font-size:6vw
 }
 button:hover{
     color:black;
     background-color: white;
     cursor:pointer;
+    font-size: 8vw;
+    height:80px;
 
 }
 @media (max-width:1000px){
     body{
         margin-top: 40%;
+    }
+    
+}
+@media (max-width:520px){
+    .innercircle{
+        width:90%;
+        vertical-align: middle;
+        margin-top:8%;
+        text-align: center;
+    
+    }
+    .time{
+        width:55%;
+        padding:15% 0   15% 0;
+    }
+    .hour{
+        font-size: 11vw;       
+    }
+    .min{
+        font-size: 9vw;
+    }
+    .sec{
+        font-size: 7vw;
+    }
+    .milli{
+        font-size: 5vw;
     }
 }
