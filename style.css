@@ -73,7 +73,7 @@ button:hover{
     background-color: white;
     cursor:pointer;
     font-size: 8vw;
-    height:80px;
+    height:150px;
 
 }
 @media (max-width:1000px){
@@ -89,6 +89,9 @@ button:hover{
         margin-top:8%;
         text-align: center;
     
+    }
+    button:hover{
+        height:80px;
     }
     .time{
         width:55%;
